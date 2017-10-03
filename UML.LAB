@@ -1,0 +1,1 @@
+the differences between my code and the generated code is that, when i am using umpleonline to designe my code, i found that all of class's method will be assign public and we don't need to write the details about each method. However, the java code have the details of each method.
