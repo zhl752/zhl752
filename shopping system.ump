@@ -1,0 +1,56 @@
+class Account
+{
+  emailAddress;
+  contactPhoneNumber;
+  password;
+  usersname;
+  billadress;
+  public void verifyLogin(){
+
+}
+public void viewCratDetail(){
+
+}
+public void addCartItems(){
+
+}
+public void verifyCode(){
+
+}
+0..1 -- * Order;
+  * -- * Customer;
+}
+
+class Order
+{
+  dateCreated;
+   dateShipped;
+  customerNameId;
+  status;
+  public void placeOrder(){
+
+}
+public void calPrice(){
+
+}
+public void chechOut(){
+
+}
+}
+
+class Customer
+{
+  name;
+    phoneNumber;
+  birthDate;
+  emailaddress;
+public void register(){
+
+}
+public void login(){
+
+}
+public void updateProfile(){
+
+}
+}
